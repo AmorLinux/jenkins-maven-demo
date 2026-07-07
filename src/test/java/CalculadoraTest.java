@@ -8,9 +8,9 @@ public class CalculadoraTest {
 
     @Test
     void sumarDosPositivos() {
-        // modificar el resultado de una prueba para hacer que falla
-        // assertEquals(5, calc.sumar(2, 3));
-        assertEquals(6, calc.sumar(2, 3));
+        // modificar el resultado de una prueba para corregir el fallo que se hizo a proposito
+        assertEquals(5, calc.sumar(2, 3));
+        // assertEquals(6, calc.sumar(2, 3));
     }
 
     @Test
